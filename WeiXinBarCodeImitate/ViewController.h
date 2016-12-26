@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CodeBarView.h"
 @interface ViewController : UIViewController
 
-
+@property(nonatomic,strong)CodeBarView * codeBarView;
 @end
 
