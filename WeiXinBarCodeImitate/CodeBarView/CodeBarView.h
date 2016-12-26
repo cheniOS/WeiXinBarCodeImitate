@@ -33,6 +33,13 @@
  *当前view所在的ViewController
  */
 @property(strong,nonatomic)UIViewController * vc;
+
+/*
+ *初始view添加的按钮
+ */
 @property(strong,nonatomic)UIButton * toucheButton;
+/*
+ *当前view添加的按钮
+ */
 @property(strong,nonatomic)UIButton * bgButton;
 @end
