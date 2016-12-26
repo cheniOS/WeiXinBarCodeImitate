@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F2C8091E10AD7200BB3990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2C8081E10AD7200BB3990 /* main.m */; };
+		20F2C80C1E10AD7200BB3990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2C80B1E10AD7200BB3990 /* AppDelegate.m */; };
+		20F2C80F1E10AD7200BB3990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2C80E1E10AD7200BB3990 /* ViewController.m */; };
+		20F2C8121E10AD7200BB3990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F2C8101E10AD7200BB3990 /* Main.storyboard */; };
+		20F2C8141E10AD7200BB3990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F2C8131E10AD7200BB3990 /* Assets.xcassets */; };
+		20F2C8171E10AD7200BB3990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F2C8151E10AD7200BB3990 /* LaunchScreen.storyboard */; };
+		20F2C8221E10AD7300BB3990 /* WeiXinBarCodeImitateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2C8211E10AD7300BB3990 /* WeiXinBarCodeImitateTests.m */; };
+		20F2C82D1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2C82C1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F2C81E1E10AD7300BB3990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F2C7FC1E10AD7200BB3990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F2C8031E10AD7200BB3990;
+			remoteInfo = WeiXinBarCodeImitate;
+		};
+		20F2C8291E10AD7300BB3990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F2C7FC1E10AD7200BB3990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F2C8031E10AD7200BB3990;
+			remoteInfo = WeiXinBarCodeImitate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F2C8041E10AD7200BB3990 /* WeiXinBarCodeImitate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiXinBarCodeImitate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F2C8081E10AD7200BB3990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20F2C80A1E10AD7200BB3990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20F2C80B1E10AD7200BB3990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20F2C80D1E10AD7200BB3990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20F2C80E1E10AD7200BB3990 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20F2C8111E10AD7200BB3990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20F2C8131E10AD7200BB3990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20F2C8161E10AD7200BB3990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20F2C8181E10AD7200BB3990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F2C81D1E10AD7300BB3990 /* WeiXinBarCodeImitateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiXinBarCodeImitateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F2C8211E10AD7300BB3990 /* WeiXinBarCodeImitateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiXinBarCodeImitateTests.m; sourceTree = "<group>"; };
+		20F2C8231E10AD7300BB3990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F2C8281E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiXinBarCodeImitateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F2C82C1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiXinBarCodeImitateUITests.m; sourceTree = "<group>"; };
+		20F2C82E1E10AD7300BB3990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F2C8011E10AD7200BB3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F2C81A1E10AD7300BB3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F2C8251E10AD7300BB3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F2C7FB1E10AD7200BB3990 = {
+			isa = PBXGroup;
+			children = (
+				20F2C8061E10AD7200BB3990 /* WeiXinBarCodeImitate */,
+				20F2C8201E10AD7300BB3990 /* WeiXinBarCodeImitateTests */,
+				20F2C82B1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests */,
+				20F2C8051E10AD7200BB3990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20F2C8051E10AD7200BB3990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F2C8041E10AD7200BB3990 /* WeiXinBarCodeImitate.app */,
+				20F2C81D1E10AD7300BB3990 /* WeiXinBarCodeImitateTests.xctest */,
+				20F2C8281E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F2C8061E10AD7200BB3990 /* WeiXinBarCodeImitate */ = {
+			isa = PBXGroup;
+			children = (
+				20F2C80A1E10AD7200BB3990 /* AppDelegate.h */,
+				20F2C80B1E10AD7200BB3990 /* AppDelegate.m */,
+				20F2C80D1E10AD7200BB3990 /* ViewController.h */,
+				20F2C80E1E10AD7200BB3990 /* ViewController.m */,
+				20F2C8101E10AD7200BB3990 /* Main.storyboard */,
+				20F2C8131E10AD7200BB3990 /* Assets.xcassets */,
+				20F2C8151E10AD7200BB3990 /* LaunchScreen.storyboard */,
+				20F2C8181E10AD7200BB3990 /* Info.plist */,
+				20F2C8071E10AD7200BB3990 /* Supporting Files */,
+			);
+			path = WeiXinBarCodeImitate;
+			sourceTree = "<group>";
+		};
+		20F2C8071E10AD7200BB3990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F2C8081E10AD7200BB3990 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20F2C8201E10AD7300BB3990 /* WeiXinBarCodeImitateTests */ = {
+			isa = PBXGroup;
+			children = (
+				20F2C8211E10AD7300BB3990 /* WeiXinBarCodeImitateTests.m */,
+				20F2C8231E10AD7300BB3990 /* Info.plist */,
+			);
+			path = WeiXinBarCodeImitateTests;
+			sourceTree = "<group>";
+		};
+		20F2C82B1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20F2C82C1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.m */,
+				20F2C82E1E10AD7300BB3990 /* Info.plist */,
+			);
+			path = WeiXinBarCodeImitateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F2C8031E10AD7200BB3990 /* WeiXinBarCodeImitate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F2C8311E10AD7300BB3990 /* Build configuration list for PBXNativeTarget "WeiXinBarCodeImitate" */;
+			buildPhases = (
+				20F2C8001E10AD7200BB3990 /* Sources */,
+				20F2C8011E10AD7200BB3990 /* Frameworks */,
+				20F2C8021E10AD7200BB3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiXinBarCodeImitate;
+			productName = WeiXinBarCodeImitate;
+			productReference = 20F2C8041E10AD7200BB3990 /* WeiXinBarCodeImitate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20F2C81C1E10AD7300BB3990 /* WeiXinBarCodeImitateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F2C8341E10AD7300BB3990 /* Build configuration list for PBXNativeTarget "WeiXinBarCodeImitateTests" */;
+			buildPhases = (
+				20F2C8191E10AD7300BB3990 /* Sources */,
+				20F2C81A1E10AD7300BB3990 /* Frameworks */,
+				20F2C81B1E10AD7300BB3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F2C81F1E10AD7300BB3990 /* PBXTargetDependency */,
+			);
+			name = WeiXinBarCodeImitateTests;
+			productName = WeiXinBarCodeImitateTests;
+			productReference = 20F2C81D1E10AD7300BB3990 /* WeiXinBarCodeImitateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20F2C8271E10AD7300BB3990 /* WeiXinBarCodeImitateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F2C8371E10AD7300BB3990 /* Build configuration list for PBXNativeTarget "WeiXinBarCodeImitateUITests" */;
+			buildPhases = (
+				20F2C8241E10AD7300BB3990 /* Sources */,
+				20F2C8251E10AD7300BB3990 /* Frameworks */,
+				20F2C8261E10AD7300BB3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F2C82A1E10AD7300BB3990 /* PBXTargetDependency */,
+			);
+			name = WeiXinBarCodeImitateUITests;
+			productName = WeiXinBarCodeImitateUITests;
+			productReference = 20F2C8281E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F2C7FC1E10AD7200BB3990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = nice;
+				TargetAttributes = {
+					20F2C8031E10AD7200BB3990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					20F2C81C1E10AD7300BB3990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20F2C8031E10AD7200BB3990;
+					};
+					20F2C8271E10AD7300BB3990 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20F2C8031E10AD7200BB3990;
+					};
+				};
+			};
+			buildConfigurationList = 20F2C7FF1E10AD7200BB3990 /* Build configuration list for PBXProject "WeiXinBarCodeImitate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F2C7FB1E10AD7200BB3990;
+			productRefGroup = 20F2C8051E10AD7200BB3990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F2C8031E10AD7200BB3990 /* WeiXinBarCodeImitate */,
+				20F2C81C1E10AD7300BB3990 /* WeiXinBarCodeImitateTests */,
+				20F2C8271E10AD7300BB3990 /* WeiXinBarCodeImitateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F2C8021E10AD7200BB3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F2C8171E10AD7200BB3990 /* LaunchScreen.storyboard in Resources */,
+				20F2C8141E10AD7200BB3990 /* Assets.xcassets in Resources */,
+				20F2C8121E10AD7200BB3990 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F2C81B1E10AD7300BB3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F2C8261E10AD7300BB3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F2C8001E10AD7200BB3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F2C80F1E10AD7200BB3990 /* ViewController.m in Sources */,
+				20F2C80C1E10AD7200BB3990 /* AppDelegate.m in Sources */,
+				20F2C8091E10AD7200BB3990 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F2C8191E10AD7300BB3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F2C8221E10AD7300BB3990 /* WeiXinBarCodeImitateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F2C8241E10AD7300BB3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F2C82D1E10AD7300BB3990 /* WeiXinBarCodeImitateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F2C81F1E10AD7300BB3990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F2C8031E10AD7200BB3990 /* WeiXinBarCodeImitate */;
+			targetProxy = 20F2C81E1E10AD7300BB3990 /* PBXContainerItemProxy */;
+		};
+		20F2C82A1E10AD7300BB3990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F2C8031E10AD7200BB3990 /* WeiXinBarCodeImitate */;
+			targetProxy = 20F2C8291E10AD7300BB3990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20F2C8101E10AD7200BB3990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F2C8111E10AD7200BB3990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20F2C8151E10AD7200BB3990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F2C8161E10AD7200BB3990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20F2C82F1E10AD7300BB3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20F2C8301E10AD7300BB3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F2C8321E10AD7300BB3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeiXinBarCodeImitate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.WeiXinBarCodeImitate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20F2C8331E10AD7300BB3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeiXinBarCodeImitate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.WeiXinBarCodeImitate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20F2C8351E10AD7300BB3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiXinBarCodeImitateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.WeiXinBarCodeImitateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiXinBarCodeImitate.app/WeiXinBarCodeImitate";
+			};
+			name = Debug;
+		};
+		20F2C8361E10AD7300BB3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiXinBarCodeImitateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.WeiXinBarCodeImitateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiXinBarCodeImitate.app/WeiXinBarCodeImitate";
+			};
+			name = Release;
+		};
+		20F2C8381E10AD7300BB3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeiXinBarCodeImitateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.WeiXinBarCodeImitateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiXinBarCodeImitate;
+			};
+			name = Debug;
+		};
+		20F2C8391E10AD7300BB3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeiXinBarCodeImitateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.WeiXinBarCodeImitateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiXinBarCodeImitate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F2C7FF1E10AD7200BB3990 /* Build configuration list for PBXProject "WeiXinBarCodeImitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F2C82F1E10AD7300BB3990 /* Debug */,
+				20F2C8301E10AD7300BB3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F2C8311E10AD7300BB3990 /* Build configuration list for PBXNativeTarget "WeiXinBarCodeImitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F2C8321E10AD7300BB3990 /* Debug */,
+				20F2C8331E10AD7300BB3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20F2C8341E10AD7300BB3990 /* Build configuration list for PBXNativeTarget "WeiXinBarCodeImitateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F2C8351E10AD7300BB3990 /* Debug */,
+				20F2C8361E10AD7300BB3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20F2C8371E10AD7300BB3990 /* Build configuration list for PBXNativeTarget "WeiXinBarCodeImitateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F2C8381E10AD7300BB3990 /* Debug */,
+				20F2C8391E10AD7300BB3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F2C7FC1E10AD7200BB3990 /* Project object */;
+}
