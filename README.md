@@ -1,2 +1,2 @@
 # WeiXinBarCodeImitate
-![image](https://github.com/cheniOS/WeiXinBarCodeImitate/blob/master/WeiXinBarCodeImitate/weei.gif)
+![image](https://github.com/cheniOS/WeiXinBarCodeImitate/blob/master/WeiXinBarCodeImitate/weeinew.gif)
